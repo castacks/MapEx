@@ -36,7 +36,7 @@ Clone the repository and make sure that you are on the main branch.
     git submodule update --init --recursive
 
 ### Set up Mamba environment (Recommended)
-Mamba is a package manger used for managing python environments and dependencies, known for having better speed and efficiency than conda. For more information, please refer to this <a href="https://mamba.readthedocs.io/en/latest/user_guide/mamba.html">link</a>. 
+Mamba is a package manager used for managing python environments and dependencies, known for having better speed and efficiency than conda. For more information, please refer to this <a href="https://mamba.readthedocs.io/en/latest/user_guide/mamba.html">link</a>. 
 
     wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
     bash Mambaforge-Linux-x86_64.sh
@@ -101,7 +101,7 @@ In order to test MapEx, run the `explore.py` script.
 
 This will automatically call `base.yaml`, which contains default parameters and specifies filepaths, environment, and starting conditions. If you want to customize parameters, generate your own yaml file and save it in the `configs` directory. 
 
-Moreover, if you want to specifiy environment and starting positions as arguments to the script. For example, 
+Moreover, if you want to specify environment and starting positions as arguments to the script. For example, 
 
     python3 explore.py --collect_world_list 50010535_PLAN1 --start_pose 768 551
 
