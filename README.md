@@ -82,7 +82,7 @@ The `pretrained_model` directory and its subdirectories should be organized as b
 ### Install lib_rangec
 Go to `range_libc` directory and install by following:
 
-    cd ~/MapEx/lib_rangec/pywrapper
+    cd ~/MapEx/range_libc/pywrapper
     python3 setup.py install 
     pip3 install Cython
 
