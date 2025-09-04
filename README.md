@@ -175,10 +175,11 @@ This repository will be maintained and improved by <a href="https://seungchan-ki
 If you find our paper or code useful, please cite us:
 
 ```bib
-@article{ho_kim2024mapex,
-  title={MapEx: Indoor Structure Exploration with Probabilistic Information Gain from Global Map Predictions},
+@INPROCEEDINGS{ho2025mapex,
   author={Ho, Cherie and Kim, Seungchan and Moon, Brady and Parandekar, Aditya and Harutyunyan, Narek and Wang, Chen and Sycara, Katia and Best, Graeme and Scherer, Sebastian},
-  journal={arXiv preprint arXiv:2409.15590},
-  year={2024}
-}
+  booktitle={2025 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={MapEx: Indoor Structure Exploration with Probabilistic Information Gain from Global Map Predictions}, 
+  year={2025},
+  pages={13074-13080},
+  doi={10.1109/ICRA55743.2025.11128862}}
 ```
